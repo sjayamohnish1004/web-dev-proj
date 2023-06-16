@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const connectionString = "mongodb+srv://dev-user:FqerYzUp1152@cluster0.m3mfc.mongodb.net/"
+const connectionString = "mongodb+srv://<user>:<pass>@cluster0.m3mfc.mongodb.net/"
 
 module.exports.connectMongoDB = function() {
     mongoose
